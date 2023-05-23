@@ -14,7 +14,7 @@
 				</div>
 			</div>
 			<div class="d-flex flex-md-row flex-column justify-center align-center">
-				<v-img src="https://github.com/thuanpham113/project-CV/blob/master/static/person.png" aspect-ratio="0.9" :width="$vuetify.breakpoint.mdAndUp ? '30vw' : '60vw'" class="rounded-xl mx-5 my-6 my-md-0"></v-img>
+				<v-img src="https://raw.githubusercontent.com/thuanpham113/project-CV/master/static/person.png" aspect-ratio="0.9" :width="$vuetify.breakpoint.mdAndUp ? '30vw' : '60vw'" class="rounded-xl mx-5 my-6 my-md-0"></v-img>
 				<div class="d-flex flex-column align-center justify-center mx-16 my-8">
 					<v-spacer />
 					<v-sheet max-width="500" color="transparent">
