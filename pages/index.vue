@@ -7,7 +7,7 @@
 			:width="widthCard"
 			style="background: linear-gradient(75deg, #FFC107 36.9%, #ffffff 37%);"
 		>
-			<div class="d-flex mt-5 mx-5">
+			<div class="d-flex mt-5 mx-md-5">
 				<v-spacer />
 
 				<v-tabs
@@ -20,6 +20,7 @@
 					<v-tab
 						v-for="item in items"
 						:key="item.title"
+						class="text-caption text-md-h6"
 					>
 						{{ item.title }}
 					</v-tab>
@@ -159,10 +160,10 @@
 				</v-tab-item>
 				<v-tab-item>
 					<div
-						class="d-flex flex-md-row flex-column justify-center align-center"
+						class="d-flex flex-column justify-center align-center"
 					>
 						<v-img src="https://raw.githubusercontent.com/thuanpham113/project-CV/master/static/qrcode.png" aspect-ratio="1" :width="$vuetify.breakpoint.mdAndUp ? '20vw' : '60vw'" class="ma-16"></v-img>
-						<div class="h1 text-md-h4 my-5 px-5">
+						<div class="my-5 px-5">
 							https://thuanpham113.github.io/project-CV/
 						</div>
 					</div>
