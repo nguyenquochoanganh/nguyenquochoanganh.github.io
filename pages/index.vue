@@ -34,7 +34,7 @@
 					<div
 						class="d-flex flex-md-row flex-column justify-center align-center"
 					>
-						<v-img src="https://raw.githubusercontent.com/thuanpham113/project-CV/master/static/person.png" aspect-ratio="0.9" :width="$vuetify.breakpoint.mdAndUp ? '30vw' : '60vw'" class="rounded-xl mx-5 my-6 my-md-0"></v-img>
+						<v-img src="/person.png" aspect-ratio="0.9" :width="$vuetify.breakpoint.mdAndUp ? '30vw' : '60vw'" class="rounded-xl mx-5 my-6 my-md-0"></v-img>
 						<div class="d-flex flex-column align-center justify-center mx-16 my-8">
 							<v-spacer />
 							<v-sheet max-width="500" color="transparent">
@@ -60,7 +60,7 @@
 					<div
 						class="d-flex flex-md-row flex-column justify-center align-center"
 					>
-						<v-img src="https://raw.githubusercontent.com/thuanpham113/project-CV/master/static/infor.png" aspect-ratio="0.9" :width="$vuetify.breakpoint.mdAndUp ? '30vw' : '60vw'" class="rounded-xl mx-5 my-6 my-md-0"></v-img>
+						<v-img src="/infor.png" aspect-ratio="0.9" :width="$vuetify.breakpoint.mdAndUp ? '30vw' : '60vw'" class="rounded-xl mx-5 my-6 my-md-0"></v-img>
 						<div class="d-flex flex-column justify-center mx-16 my-8">
 							<div class="text-h3 my-3 font-weight-bold">Contact Info</div>
 							<div
@@ -103,7 +103,7 @@
 					<div
 						class="d-flex flex-md-row flex-column justify-center align-center"
 					>
-						<v-img src="https://raw.githubusercontent.com/thuanpham113/project-CV/master/static/infor.png" aspect-ratio="0.9" :width="$vuetify.breakpoint.mdAndUp ? '30vw' : '60vw'" class="rounded-xl mx-5 my-6 my-md-0"></v-img>
+						<v-img src="/infor.png" aspect-ratio="0.9" :width="$vuetify.breakpoint.mdAndUp ? '30vw' : '60vw'" class="rounded-xl mx-5 my-6 my-md-0"></v-img>
 						<div class="d-flex flex-column justify-center mx-16 my-8">
 							<v-timeline
 								align-top
@@ -162,9 +162,9 @@
 					<div
 						class="d-flex flex-column justify-center align-center"
 					>
-						<v-img src="https://raw.githubusercontent.com/thuanpham113/project-CV/master/static/qrcode.png" aspect-ratio="1" :width="$vuetify.breakpoint.mdAndUp ? '20vw' : '60vw'" class="ma-16"></v-img>
+						<v-img src="/qrcode.png" aspect-ratio="1" :width="$vuetify.breakpoint.mdAndUp ? '20vw' : '60vw'" class="ma-16"></v-img>
 						<div class="my-5 px-5">
-							https://thuanpham113.github.io/project-CV/
+							https://nguyenquochoanganh.github.io/project-CV/
 						</div>
 					</div>
 				</v-tab-item>
