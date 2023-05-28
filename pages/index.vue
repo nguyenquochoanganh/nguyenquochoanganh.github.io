@@ -164,7 +164,7 @@
 					>
 						<v-img src="/qrcode.png" aspect-ratio="1" :width="$vuetify.breakpoint.mdAndUp ? '20vw' : '60vw'" class="ma-16"></v-img>
 						<div class="my-5 px-5">
-							https://nguyenquochoanganh.github.io/project-CV/
+							https://nguyenquochoanganh.github.io/
 						</div>
 					</div>
 				</v-tab-item>
