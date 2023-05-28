@@ -36,7 +36,7 @@ export default {
   target: 'static',
 
   router: {
-    base: '/CV'
+    base: '/'
   },
 
   // Modules: https://go.nuxtjs.dev/config-modules
